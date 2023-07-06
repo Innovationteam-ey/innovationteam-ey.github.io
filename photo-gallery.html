@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovation</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+
+        }
+        
+        body {
+            margin: 0;
+            font-family: monospace;
+            background-image: url('bg3.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        h1{
+            text-align: center;
+            color: aliceblue;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0px 0px;
+        }
+        .column{
+            flex: 25%;
+            max-width: 25%;
+            padding: 0px 4px;
+
+        }
+        .column img{
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+            transition: .5sS;
+        }
+        .column img:hover{
+            box-shadow: 4px 4px 5px rgba(255, 255, 255, 0.7);
+        }
+        @media screen  and (max-width:800px){
+            .column{
+                flex:50%;
+                max-width: 50%;
+            }
+        }
+        @media screen  and (max-width:600px){
+            .column{
+                flex:100%;
+                max-width: 100%;
+            }
+        }
+        header {
+      
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+          }
+      
+          nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+      
+          nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 16px;
+          }
+      
+          nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+          } nav ul li a:hover{
+            color:#FFD700;
+            text-decoration: none;
+            padding: 5px 10px;
+          }
+          footer {
+            font-family: monospace;
+            font-size: large;
+            color: white;
+            text-align: center;
+            padding: 10px;
+          }
+          
+          .footer-heart {
+            color: red;
+          }
+    </style>
+</head>
+<body><br>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+    
+            <li><a href="team.html">TEAM</a></li>
+            <li><a href="experience.html">EXPERIENCE</a></li>
+          </ul>
+        </nav>
+      </header><hr><br>
+    <div class="row">
+    <div class="column">
+        <img src="Gallery Photos/1.jpeg">
+        <img src="Gallery Photos/2.jpeg">
+        <img src="Gallery Photos/3.jpeg">
+        <img src="Gallery Photos/4.jpeg">
+        <img src="Gallery Photos/12.jpeg">
+        <img src="Gallery Photos/gl1 (1).jpeg">
+        <img src="Gallery Photos/15.jpeg">
+        
+    </div>
+    <div class="column">
+        
+        <img src="Gallery Photos/gl1 (3).jpeg">
+        <img src="Gallery Photos/5.jpeg">
+        <img src="Gallery Photos/6.jpeg">
+        <img src="Gallery Photos/7.jpeg">
+        <img src="Gallery Photos/8.jpeg">
+        
+        <img src="Gallery Photos/gl1 (4).jpeg">
+        <img src="Gallery Photos/9.jpeg">
+        
+        
+    </div>
+    <div class="column">
+        <img src="Gallery Photos/16.jpeg">
+        
+        <img src="Gallery Photos/gl1 (2).jpeg">
+        <img src="Gallery Photos/10.jpeg">
+        <img src="Gallery Photos/11.jpeg">
+        <img src="Gallery Photos/gl1 (5).jpeg">
+        
+        
+    </div>
+    <div class="column">
+        <img src="Gallery Photos/13.jpeg">
+        <img src="Gallery Photos/14.jpeg">
+        
+        <img src="Gallery Photos/gl1 (7).jpeg">
+        <img src="Gallery Photos/gl1 (8).jpeg">
+        <img src="Gallery Photos/gl1 (6).jpeg">
+        <video controls >
+            <source src="Gallery Photos/gl1 (1).mp4">
+        </video>
+        
+       
+    </div>
+    </div>
+
+    <footer>
+        <p>Made with <span class="footer-heart">&#10084;</span> by Raghul &amp; Akshaya <span class="footer-heart"></span></p>
+      </footer>
+    
+</body>
+</html>
